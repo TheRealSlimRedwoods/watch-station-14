@@ -1467,7 +1467,7 @@
       layers:
         - state: icon
     - type: ItemToggle
-      onUse: true
+      onUse: false
       verbToggleOn: plushie-voicebox-activate
       verbToggleOff: plushie-voicebox-deactivate
     - type: ComponentToggler
@@ -1476,3 +1476,40 @@
           dataset: PlushiesRedwoods
         - type: TextToSpeech
           voice: klaasjeamandou
+
+- type: entity
+  parent: BaseShadekinPlushie
+  id: PlushieVirus
+  name: Virus Plushie
+  description: BEST SALESWOMAN, resgistered 2525, now in a pocket version! # spamton ass character :sob:
+  components:
+    - type: Item
+      size: Small
+      sprite: _Starlight/Objects/Fun/Plushies/virus_plushie.rsi
+    - type: Sprite
+      sprite: _Starlight/Objects/Fun/Plushies/virus_plushie.rsi
+      layers:
+        - state: icon
+    - type: ItemToggle
+      onUse: false
+      verbToggleOn: plushie-voicebox-activate
+      verbToggleOff: plushie-voicebox-deactivate
+    - type: ComponentToggler
+      components:
+        - type: DatasetVocalizer
+          dataset: PlushiesRedwoods
+        - type: TextToSpeech
+          voice: neon
+
+- type: entity
+  parent: BaseShadekinPlushie
+  id: PlushieMahio
+  name: Mahio Plushie
+  description: A rookie RD, still very huggable.
+  components:
+  - type: Item
+    size: Small
+    sprite: _Starlight/Objects/Fun/Plushies/mahio_plushie.rsi
+  - type: Sprite
+    sprite: _Starlight/Objects/Fun/Plushies/mahio_plushie.rsi
+    state: icon
