@@ -1524,9 +1524,9 @@
   components:
   - type: Item
     size: Small
-    sprite: _Starlight/Objects/Fun/Plushies/rhea_plushies.rsi
+    sprite: _Starlight/Objects/Fun/Plushies/rhea_plushie.rsi
   - type: Sprite
-    sprite: _Starlight/Objects/Fun/Plushies/rhea_plushies.rsi
+    sprite: _Starlight/Objects/Fun/Plushies/rhea_plushie.rsi
     state: icon
   - type: ItemToggle
     onUse: false
