@@ -1509,10 +1509,10 @@
           voice: neon
 
 - type: entity
-  parent: BaseShadekinPlushie
+  parent: BaseMothPlushie
   id: PlushieMahio
   name: Mahio Plushie
-  description: A rookie RD, still very huggable.
+  description: Is this moth even RD?
   components:
   - type: Item
     size: Small
@@ -1520,6 +1520,16 @@
   - type: Sprite
     sprite: _Starlight/Objects/Fun/Plushies/mahio_plushie.rsi
     state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesRedwoods
+      - type: TextToSpeech
+        voice: engineer
 
 - type: entity
   parent: BaseResomiPlushie
