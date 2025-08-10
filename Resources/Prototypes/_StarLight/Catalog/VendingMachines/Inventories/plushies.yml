@@ -596,3 +596,14 @@
   conditions:
     - !type:ListingLimitedStockCondition
       stock: 1
+
+- type: listing
+  id: VendorPlushieRhea
+  productEntity: PlushieRhea
+  cost:
+    NTCredit: 20
+  catagories:
+    - SLCrew
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 1
