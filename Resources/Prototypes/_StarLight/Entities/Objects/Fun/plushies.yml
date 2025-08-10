@@ -1513,3 +1513,16 @@
   - type: Sprite
     sprite: _Starlight/Objects/Fun/Plushies/mahio_plushie.rsi
     state: icon
+
+- type: entity
+  parent: BaseResomiPlushie
+  id: RheaPlushie
+  name: Rhea Plushie
+  description: Our beloved Urlunete Salive is now made out of pure polyester! Hug them while fucking over xenos.
+  components:
+  - type: Item
+    size: Small
+    sprite: _Starlight/Objects/Fun/Plushies/rhea_plushies.rsi
+  - type: Sprite
+    sprite: sprite: _Starlight/Objects/Fun/Plushies/rhea_plushies.rsi
+    state: icon
