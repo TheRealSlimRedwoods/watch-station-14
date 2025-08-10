@@ -1490,6 +1490,8 @@
       sprite: _Starlight/Objects/Fun/Plushies/virus_plushie.rsi
       layers:
         - state: icon
+    - type: Clothing
+      slots: [Head]
     - type: ItemToggle
       onUse: false
       verbToggleOn: plushie-voicebox-activate
