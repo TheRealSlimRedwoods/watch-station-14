@@ -1526,3 +1526,13 @@
   - type: Sprite
     sprite: sprite: _Starlight/Objects/Fun/Plushies/rhea_plushies.rsi
     state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesRedwoods
+      - type: TextToSpeech
+        voice: kamisatoayaka
