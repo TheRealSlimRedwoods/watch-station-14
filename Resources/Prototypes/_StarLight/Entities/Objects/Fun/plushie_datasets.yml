@@ -129,3 +129,9 @@
   values:
     prefix: plushie-mahio-
     count: 9
+
+- type: localizedDataset
+  id: PlushieRhea
+  values:
+    prefix: plushie-rhea-
+    count: 9
