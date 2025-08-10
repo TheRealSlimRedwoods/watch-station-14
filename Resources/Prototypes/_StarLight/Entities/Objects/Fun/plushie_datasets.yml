@@ -128,10 +128,10 @@
   id: PlushiesMahio
   values:
     prefix: plushie-mahio-
-    count: 10
+    count: 9
 
 - type: localizedDataset
   id: PlushieRhea
   values:
     prefix: plushie-rhea-
-    count: 11
+    count: 9
