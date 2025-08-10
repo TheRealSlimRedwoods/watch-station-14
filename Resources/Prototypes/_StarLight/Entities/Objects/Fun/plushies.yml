@@ -1491,7 +1491,12 @@
       layers:
         - state: icon
     - type: Clothing
-      slots: [Head]
+      sprite: _Starlight/Objects/Fun/Plushies/virus_plushie.rsi
+      slots:
+      - HEAD
+      clothingVisuals:
+        head:
+        - states: Saleswoman-head
     - type: ItemToggle
       onUse: false
       verbToggleOn: plushie-voicebox-activate
