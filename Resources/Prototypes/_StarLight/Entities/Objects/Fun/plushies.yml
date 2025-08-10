@@ -1535,6 +1535,6 @@
   - type: ComponentToggler
     components:
       - type: DatasetVocalizer
-        dataset: PlushiesRedwoods
+        dataset: PlushiesRhea
       - type: TextToSpeech
         voice: kamisatoayaka
