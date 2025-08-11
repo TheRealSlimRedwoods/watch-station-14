@@ -1535,7 +1535,7 @@
   parent: BaseResomiPlushie
   id: RheaPlushie
   name: Rhea Plushie
-  description: Our beloved Urlunete Salive is now made out of pure polyester! Hug them while fucking over xenos.
+  description: Our beloved Urlunete Salve is now made out of pure polyester! Hug them while fucking over xenos.
   components:
   - type: Item
     size: Small
@@ -1553,3 +1553,49 @@
         dataset: PlushiesRhea
       - type: TextToSpeech
         voice: kamisatoayaka
+
+- type: entity
+  parent: BaseAvaliPlushie
+  id: MalachiPlushie
+  name: Malachi Plushie
+  description: Small but can REALLY fuck up your mischiefs and now she watches you as a plushie, a reminder that she is still there.
+  components:
+  - type: Item
+    size: Small
+    sprite: _Starlight/Objects/Fun/Plushies/malachi_plushie.rsi
+  - type: Sprite
+    sprite: _Starlight/Objects/Fun/Plushies/malachi_plushie.rsi
+    state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesRhea
+      - type: TextToSpeech
+        voice: clementine
+
+- type: entity
+  parent: BaseResomiPlushie
+  id: RemiiePlushie
+  name: Remiie Plushie
+  description: It's Remiie! Our beloved Resomi HOP!
+  components:
+  - type: Item
+    size: Small
+    sprite: _Starlight/Objects/Fun/Plushies/remiie_plushie.rsi
+  - type: Sprite
+    sprite: _Starlight/Objects/Fun/Plushies/remiie_plushie.rsi
+    state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesRemiie
+      - type: TextToSpeech
+        voice: judy
