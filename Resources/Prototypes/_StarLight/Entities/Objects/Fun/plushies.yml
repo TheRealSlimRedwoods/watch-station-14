@@ -1621,4 +1621,4 @@
       - type: DatasetVocalizer
         dataset: PlushiesRemiie
       - type: TextToSpeech
-        voice: judy
+        voice: clara
