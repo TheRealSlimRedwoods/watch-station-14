@@ -1555,7 +1555,7 @@
         voice: kamisatoayaka
 
 - type: entity
-  parent: BaseAvaliPlushie
+  parent: BaseResomiPlushie # Temporary until I make a Avali plushie base...... fml
   id: MalachiPlushie
   name: Malachi Plushie
   description: Small but can REALLY fuck up your mischiefs and now she watches you as a plushie, a reminder that she is still there.
