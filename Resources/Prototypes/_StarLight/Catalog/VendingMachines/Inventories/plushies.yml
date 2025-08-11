@@ -607,3 +607,36 @@
   conditions:
     - !type:ListingLimitedStockCondition
       stock: 1
+
+- type: listing
+  id: VendorPlushieRemiie
+  productEntity: PlushieRemiie
+  cost:
+    NTCredit: 20
+  catagories:
+    - SLCrew
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 1
+
+- type: listing
+  id: VendorPlushieMalachi
+  productEntity: PlushieMalachi
+  cost:
+    NTCredit: 20
+  catagories:
+    - SLCrew
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 1
+
+- type: listing
+  id: VendorPlushieBrighteyes
+  productEntity: PlushieBrighteyes
+  cost:
+    NTCredit: 20
+  catagories:
+    - SLCrew
+  conditions:
+    - !type:ListingLimitedStockCondition
+      stock: 1
