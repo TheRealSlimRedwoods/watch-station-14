@@ -1535,7 +1535,7 @@
   parent: BaseResomiPlushie
   id: RheaPlushie
   name: Rhea Plushie
-  description: Our beloved Urlunete Salve is now made out of pure polyester! Hug them while fucking over xenos.
+  description: Our beloved Urlunete Salvie is now made out of pure polyester! Hug them while fucking over xenos.
   components:
   - type: Item
     size: Small
@@ -1588,6 +1588,29 @@
     sprite: _Starlight/Objects/Fun/Plushies/remiie_plushie.rsi
   - type: Sprite
     sprite: _Starlight/Objects/Fun/Plushies/remiie_plushie.rsi
+    state: icon
+  - type: ItemToggle
+    onUse: false
+    verbToggleOn: plushie-voicebox-activate
+    verbToggleOff: plushie-voicebox-deactivate
+  - type: ComponentToggler
+    components:
+      - type: DatasetVocalizer
+        dataset: PlushiesRemiie
+      - type: TextToSpeech
+        voice: judy
+
+- type: entity
+  parent: BaseFelinoidPlushie
+  id: BrighteyesPlushie
+  name: Brighteyes Plushie
+  description: Kitty secoff.....
+  components:
+  - type: Item
+    size: Small
+    sprite: _Starlight/Objects/Fun/Plushies/brighteyes_plushie.rsi
+  - type: Sprite
+    sprite: _Starlight/Objects/Fun/Plushies/brighteyes_plushie.rsi
     state: icon
   - type: ItemToggle
     onUse: false
