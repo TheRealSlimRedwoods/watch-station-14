@@ -135,3 +135,27 @@
   values:
     prefix: plushie-rhea-
     count: 9
+
+- type: localizedDataset
+  id: PlushieRemiie
+  values:
+    prefix: plushie-remiie-
+    count: 9
+
+- type: localizedDataset
+  id: PlushieMalachi
+  values:
+    prefix: plushie-malachi-
+    count: 9
+
+- type: localizedDataset
+  id: PlushieRhea
+  values:
+    prefix: plushie-rhea-
+    count: 9
+
+- type: localizedDataset
+  id: PlushieBrighteyes
+  values:
+    prefix: plushie-brighteyes-
+    count: 9
