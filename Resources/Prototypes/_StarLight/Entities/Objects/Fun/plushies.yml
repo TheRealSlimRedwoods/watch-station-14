@@ -1581,7 +1581,7 @@
   parent: BaseResomiPlushie
   id: RemiiePlushie
   name: Remiie Plushie
-  description: It's Remiie! Our beloved Resomi HOP!
+  description: Beta sector's favourite veteran head of personnel! Now turned into a marketable plushie and is extremely huggable!
   components:
   - type: Item
     size: Small
